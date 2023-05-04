@@ -11,7 +11,7 @@ export default function InfoNavSection() {
   const { width } = useWindowSize();
   return (
     <section
-    id={"infoNav"}
+      id={"infoNav"}
       className="bg-white pt-20  pb-5 drop-shadow flex flex-col items-center"
       style={
         width > 768
@@ -34,11 +34,13 @@ export default function InfoNavSection() {
             : { height: "65vh" }
         }
       >
-        <Link href="/contact" 
+        <Link
+          href="/contact"
           className="relative flex flex-col-reverse items-center py-8"
-          style={{ flex: 1}}
+          style={{ flex: 1 }}
         >
           <Image
+            alt={"vision"}
             src={infoImg1}
             fill
             style={{ objectFit: "cover", mixBlendMode: "multiply" }}
@@ -47,11 +49,13 @@ export default function InfoNavSection() {
             VISION
           </h1>
         </Link>
-        <Link href="/contact" 
+        <Link
+          href="/contact"
           className="relative flex flex-col-reverse items-center py-8"
           style={{ flex: 1 }}
         >
           <Image
+            alt={"works"}
             src={infoImg2}
             fill
             style={{ objectFit: "cover", mixBlendMode: "multiply" }}
@@ -60,11 +64,13 @@ export default function InfoNavSection() {
             WORKS
           </h1>
         </Link>
-        <Link href="/contact" 
+        <Link
+          href="/contact"
           className="relative flex flex-col-reverse items-center py-8"
           style={{ flex: 1 }}
         >
           <Image
+            alt={"contact"}
             src={infoImg3}
             fill
             style={{ objectFit: "cover", mixBlendMode: "multiply" }}

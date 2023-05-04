@@ -15,7 +15,7 @@ export default function LastSection() {
 
         <div className=" w-full md:w-4/5 xl:w-3/5">
           <div className="h-11 relative w-28 md:w-40 md:h-14 mb-8 md:mb-12">
-            <Image src={iconImg} fill style={{ objectFit: "contain" }} />
+            <Image src={iconImg} alt={"logo"} fill style={{ objectFit: "contain" }} />
           </div>
           <nav className="flex flex-row justify-between md:w-80 md:justify-start md:space-x-4 ">
             <div className="border-b-2 border-neutral-400 pr-3 ">

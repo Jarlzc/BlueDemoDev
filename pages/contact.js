@@ -9,7 +9,7 @@ import LastSection from "@/components/LastSection";
 import contactImg from "../public/images/contactimg.jpg";
 import lastHeroImg from "../public/images/lastHeroImg.jpg";
 
-export default function contact() {
+export default function Contact() {
   const { width, height } = useWindowSize();
   return (
     <div className="">
@@ -44,7 +44,7 @@ export default function contact() {
               : { minHeight: "20vh" }
           }
         >
-          <Image src={contactImg} fill style={{ objectFit: "contain" }} />
+          <Image src={contactImg} alt={"contactphonephoto"} fill style={{ objectFit: "contain" }} />
         </div>
         <div className="md:w-4/5 xl:w-3/5">
           <p className="text-theblack text-base">

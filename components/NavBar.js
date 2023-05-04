@@ -33,7 +33,7 @@ export default function NavBar() {
             className="ml-5 md:ml-7 relative h-10 md:h-11 lg:h-12 xl:h-16 justify-center items-center "
             style={{ aspectRatio: 2.77 }}
           >
-            <Image src={companyIcon} fill style={{ objectFit: "contain" }} />
+            <Image src={companyIcon} alt={"logo"} fill style={{ objectFit: "contain" }} />
           </Link>
           <div className="justify-center items-center flex flex-row">
             <nav className=" hidden justify-center items-center md:flex flex-row md:space-x-9 mr-6">

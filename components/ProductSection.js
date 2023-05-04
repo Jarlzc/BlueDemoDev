@@ -22,6 +22,7 @@ export default function ProductSection({ data }) {
     >
       <Image
         src={productBg}
+        alt={"productbackground"}
         fill
         style={{
           objectFit: "cover",

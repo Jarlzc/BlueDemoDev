@@ -18,7 +18,7 @@ export default function ProductCard({ imgsrc, name, description }) {
       </Link>
       <Link href="/contact"  className="flex flex-col" style={{ flex: 1 }}>
         <div className="mb-7 relative" style={{ flex: 0.8 }}>
-          <Image src={imgsrc} fill style={{ objectFit: "scale-down" }} />
+          <Image src={imgsrc} alt={"product"} fill style={{ objectFit: "scale-down" }} />
         </div>
         <div style={{ flex: 0.2 }}>
           <h3 className="text-theblue text-lg tracking-wider mb-4 ">{name}</h3>
